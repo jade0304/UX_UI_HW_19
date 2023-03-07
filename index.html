@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefanie Dinh-Nguyen Portfolio</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 </head>
 <body>
     <header class="navigation">
@@ -12,10 +14,11 @@
         <nav class="inline-block">
             <ul>
                 <li class="inline-block">About</li>
-                <li class="inline-block">Skills</li>
-                <li class="inline-block">Work</li>
+                <li class="inline-block" id="skills">Skills</li>
+                <li class="inline-block" id="myWork">My Work</li>
                 <li class="inline-block">Contact</li>
-            </ul></nav>
+            </ul>
+            </nav>
     </header>
     <section class="heroImg">
         <div class="content">
@@ -35,25 +38,25 @@
                 <div class="projectDescription gridContainerItem1">
                     <h4>Mobile Prototype Project Tile</h4>
                     <p>This is a short 2-3 sentence description of the project</p>
-                    <button>View Project</button>
+                    <button id="viewProject1">View Project</button>
                 </div>
                 <div class="gridContainerItem2"><img src="" alt="project1"></div>
     
                 <div class="projectDescription gridContainerItem3">
                     <h4>Mobile Prototype Project Tile</h4>
                     <p>This is a short 2-3 sentence description of the project</p>
-                    <button>View Project</button>
+                    <button id="viewProject2">View Project</button>
                 </div>
                 <div class="gridContainerItem4"><img src="" alt="project2"></div>
     
                 <div class="projectDescription gridContainerItem5">
                     <h4>Mobile Prototype Project Tile</h4>
                     <p>This is a short 2-3 sentence description of the project</p>
-                    <button>View Project</button>
+                    <button id="viewProject3">View Project</button>
                 </div>
                 <div class="gridContainerItem6"><img src="" alt="project3">
                 </div>
-                <button>View all projects</button></div>
+                <button id="viewAllProject">View all projects</button></div>
     </section>
 
 
@@ -66,4 +69,5 @@
         </ul>
     </footer>
 </body>
+<script src="js/index.js"></script>
 </html>
