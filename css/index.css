@@ -1,0 +1,142 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding-left: 15%;
+    text-align: center;
+}
+
+.logo img {
+    width: 67px;
+}
+
+nav {
+    width: 100%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+li {
+    padding-left: 30px;
+}
+
+.heroImg {
+    max-width: 900px;
+    padding: 25px;
+    outline: 2px solid red;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.content img {
+    width: 300px;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h3 {
+    outline: 2px solid blue;
+    max-width: 900px;
+    margin: auto;
+}
+
+.workGrid button {
+    outline: 2px solid blue;
+    margin: auto;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 315px 585px;
+    grid-auto-rows: 315px;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "project1 project1Img"
+    "project2 project2Img"
+    "project3 project3Img";
+    outline: 2px solid red;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.rowItem .gridArea {
+    grid-area: projectArea;
+}
+
+.projectDescription {
+    outline: 2px solid salmon;
+    height: 300px;
+}
+
+.gridContainerItem2, .gridContainerItem4, .gridContainerItem6 {
+    outline: 2px solid salmon;
+    height: 300px;
+}
+
+max-width: 900px;
+margin: auto;
+padding: 10px;
+
+.gridContainerItem1 {
+    grid-area: project1;
+}
+
+.gridContainerItem2 {
+    grid-area: project1Img;
+}
+
+.gridContainerItem3 {
+    grid-area: project2;
+}
+
+.gridContainerItem4 {
+    grid-area: project2Img;
+}
+
+.gridContainerItem5 {
+    grid-area: project3;
+}
+
+.gridContainerItem6 {
+    grid-area: project3Img;
+}
+
+@media only screen and (max-width: 600) {
+    width: 100%;
+    .workGrid {
+        display: grid;
+        grid-template-columns: 315px;
+        grid-auto-rows: 315px;
+        grid-gap: 20px;
+        grid-template-areas: 
+        "project1"
+        "project1Img"
+        "project2"
+        "project2Img"
+        "project3"
+        "project3Img";
+        outline: 2px solid red;
+        max-width: 900px;
+        margin: auto;
+    }
+}

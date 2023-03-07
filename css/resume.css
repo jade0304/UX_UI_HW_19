@@ -1,0 +1,57 @@
+.experiences {
+    max-width: 900px;
+    outline: 2px solid red;
+    margin: auto;
+}
+
+.aboutSDN {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.recent {
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid red;
+}
+
+.resume {
+    display: block;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    padding: 10px;
+    outline: 2px solid green;
+    
+
+}
+
+.flexContainer {
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    outline: 2px solid red;
+    max-width: 900px;
+}
+
+h3 {
+    outline: 2px solid blue;
+    margin: auto;
+    max-width: 900px;
+}
+
+.skillCard {
+    outline: 2px solid purple;
+    padding: 20px;
+
+    width 33%
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    padding: 10px
+}
