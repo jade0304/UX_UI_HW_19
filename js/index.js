@@ -5,7 +5,7 @@ $('#skills').on("click", function(){
 
 $( "li" ).hover(
     function() {
-      $( this ).append( $( "<span> <</span>" ) );
+      $( this ).append( $( "<span> l </span>" ) );
     }, function() {
       $( this ).find( "span" ).last().remove();
     }

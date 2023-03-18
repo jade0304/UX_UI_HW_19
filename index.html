@@ -7,6 +7,12 @@
     <title>Stefanie Dinh-Nguyen Portfolio</title>
 
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+    <!-- google font Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="navigation">
@@ -20,44 +26,49 @@
             </ul>
             </nav>
     </header>
-    <section class="heroImg">
-        <div class="content">
+    <section class="heroSection">
+        <div class="heroImg">
             <div><h1>Stefanie creates designs with  human-first in mind. </h1>
-                <p>A UX/UI Designer with background in graphic design and a passion for coding, based in Des Moines, Iowa</p>
+                <p class="pHeroImg">A UX/UI Designer with background in graphic design and a passion for coding, based in Des Moines, Iowa</p>
                 <button>Download Resume</button>
             </div>
-            <div class="rowItem"><img src="images/stefanie.jpg" alt="">
+            <div class="rowItem"><img class="sdnImg" src="images/stefanie.jpg" alt="">
             </div>
         </div>
-
     </section>
 <!-- My Work Section Constructed using CSS Grid -->
+<br>
+<br>
+<br>
     <h3>Work</h3>
-
+    <br>
+    <br>
+    <br>
     <section class="workGrid">
-                <div class="projectDescription gridContainerItem1">
-                    <h4>Mobile Prototype Project Tile</h4>
-                    <p>This is a short 2-3 sentence description of the project</p>
-                    <button id="viewProject1">View Project</button>
-                </div>
-                <div class="gridContainerItem2"><img src="" alt="project1"></div>
-    
-                <div class="projectDescription gridContainerItem3">
-                    <h4>Mobile Prototype Project Tile</h4>
-                    <p>This is a short 2-3 sentence description of the project</p>
-                    <button id="viewProject2">View Project</button>
-                </div>
-                <div class="gridContainerItem4"><img src="" alt="project2"></div>
-    
-                <div class="projectDescription gridContainerItem5">
-                    <h4>Mobile Prototype Project Tile</h4>
-                    <p>This is a short 2-3 sentence description of the project</p>
-                    <button id="viewProject3">View Project</button>
-                </div>
-                <div class="gridContainerItem6"><img src="" alt="project3">
-                </div>
-                <button id="viewAllProject">View all projects</button></div>
+        <div id="travelGuide" class="projectDescription gridContainerItem1">
+            <h4>Mobile Prototype Subscription Saver</h4>
+            <p>A mobile app that collects and records an inventory of the user’s subscriptions to provide visibility to all subscriptions, total subscription spending, and to better manage recurring payments through a centralized location. </p>
+            <button>View Project</button>
+        </div>
+        <div class="gridContainerItem2"><img class="subscriptionSaver" src="/images/subscriptionSaver.png" alt="project1"></div>
+
+        <div class="projectDescription gridContainerItem3">
+            <h4>Website prototype Parents Without Partners</h4>
+            <p>Parents Without Partners (PWP) is a single-parent support group for all single parents and their children. </p>
+            <button>View Project</button>
+        </div>
+        <div class="gridContainerItem4"><img class="PWPImg" src="/images/parents_without_partners.png" alt="project2"></div>
+
+        <div class="projectDescription gridContainerItem5">
+            <h4>Mobile Prototype Travel Budget</h4>
+            <p>This is a short 2-3 sentence description of the project</p>
+            <button>View Project</button>
+        </div>
+        <div class="gridContainerItem6"><img class="travelGuide" src="/images/Travel_guide.png" alt="project3">
+        </div>
+        <button class="viewAllProject">  View all projects</button>
     </section>
+
 
 
     <footer>

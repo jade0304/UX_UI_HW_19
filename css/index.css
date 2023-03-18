@@ -25,24 +25,26 @@ ul {
 
 li {
     padding-left: 30px;
-    cursor: default;
+}
 
+h1, h2, h3, h4, p, button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heroSection {
+    margin: auto;
+    background-color: black;
+    max-width: 100%;
 }
 
 .heroImg {
-    max-width: 900px;
-    padding: 25px;
-    outline: 2px solid red;
-    margin: auto;
-}
-
-.content {
     display: flex;
-    width: 500px;
-    margin: 0 auto;
+    margin: auto;
+    width: 900px;
 }
 
-.content img {
+
+.sdnImg {
     width: 300px;
 }
 
@@ -56,13 +58,20 @@ footer ul {
 }
 
 h3 {
-    outline: 2px solid blue;
     max-width: 900px;
     margin: auto;
 }
 
+h1 {
+    color: white;
+}
+
+.pHeroImg {
+    color: white;
+}
+
+
 .workGrid button {
-    outline: 2px solid blue;
     margin: auto;
 }
 
@@ -75,7 +84,6 @@ h3 {
     "project1 project1Img"
     "project2 project2Img"
     "project3 project3Img";
-    outline: 2px solid red;
     max-width: 900px;
     margin: auto;
 }
@@ -86,18 +94,12 @@ h3 {
 }
 
 .projectDescription {
-    outline: 2px solid salmon;
     height: 300px;
 }
 
 .gridContainerItem2, .gridContainerItem4, .gridContainerItem6 {
-    outline: 2px solid salmon;
     height: 300px;
 }
-
-max-width: 900px;
-margin: auto;
-padding: 10px;
 
 .gridContainerItem1 {
     grid-area: project1;
@@ -123,8 +125,37 @@ padding: 10px;
     grid-area: project3Img;
 }
 
-@media only screen and (max-width: 600) {
-    width: 100%;
+.gridContainerItem1 {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.gridContainerItem3 {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.gridContainerItem5 {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroImg {
+        padding-left: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
     .workGrid {
         display: grid;
         grid-template-columns: 315px;
@@ -137,22 +168,45 @@ padding: 10px;
         "project2Img"
         "project3"
         "project3Img";
-        outline: 2px solid red;
         max-width: 900px;
         margin: auto;
     }
+
+    .gridContainerItem1, .gridContainerItem3, .gridContainerItem5 {
+        width: 500px;
+    }
+
+
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
+.subscriptionSaver {
+    height: 315px;
+    width: 585px;
+    border-radius: 15px;
+}
+
+.PWPImg {
+    height: 315x;
+    width: 585px;
+    border-radius: 15px;
+    outline: lightgrey solid;
+}
+
+.travelGuide {
+    height: 315px;
+    width: 585px;
+    border-radius: 15px;
+}
+
+.viewAllProject {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 20px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 280px;
+    height: 20px;
+}

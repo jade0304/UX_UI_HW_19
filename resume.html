@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <!-- google font Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <header class="navigation">
+        <div class="inline-block logo"> <img src="images/dinh-gdesign2023.png" alt=""> </div>
+        <nav class="inline-block">
+            <ul>
+                <li class="inline-block">About</li>
+                <li class="inline-block" id="skills">Skills</li>
+                <li class="inline-block" id="myWork">My Work</li>
+                <li class="inline-block">Contact</li>
+            </ul>
+            </nav>
+    </header>
+
     <section class="experiences">
         <div class="resume">
             <div class="aboutSDN">
@@ -18,7 +37,7 @@
                     Born and raised in Switzerland, where she finished her graphic design studies and gained over seven years of experience. <br>
                     Currently based in Des Moines, Iowa, in March 2023, she completed the UX/UI Design Course at the University of Minnesota.</p>
                 </div>
-                <div><img src="" alt="profil picture"></div>
+                <div><img src="/images/stefanie_profilpic.png" alt="profil picture"></div>
             </div>
             <div class="recent">
                 <h3>Recent</h3>
@@ -52,10 +71,9 @@
     </section> 
 
     <h3>Skills</h3>
-    <section class="flexContainer">
-        <div class="flex">    
+    <section class="gridContainer">
             <div id="UX" class="skillCard">
-                <img src="" class="icon" alt="UX icon">
+                <img src="/images/uxIcon.png" class="icon" alt="UX icon">
                 <h3>UX</h3>
                 <p>User research <br>
                     User Empathy <br>
@@ -63,7 +81,7 @@
                 </p>
             </div>
             <div id="UI" class="skillCard">
-                <img src="" class="icon" alt="UI icon">
+                <img src="/images/uiIcon.png" class="icon" alt="UI icon">
                 <h3>UI</h3>
                 <p>Miro <br>
                     Figma <br>
@@ -71,7 +89,7 @@
                 </p>
             </div>
             <div id="graphicDesign" class="skillCard">
-                <img src="" class="icon" alt="Graphic Design Icon">
+                <img src="/images/graphicDesignIcon.png" class="icon" alt="Graphic Design Icon">
                 <h3>Graphic Design</h3>
                 <p>InDesign <br>
                     Photoshop <br>
@@ -79,15 +97,16 @@
                 </p>
             </div>
             <div id="Web Development" class="skillCard">
-                <img src="" class="icon" alt="Web Development Icon">
+                <img src="/images/WebDevelopmentIcon.png" class="icon" alt="Web Development Icon">
                 <h3>Web Development</h3>
                 <p>Frontend Development <br>
                     Backend Development
                 </p>
             </div>
-        </div>
     </section>
     
     <section class="skills"></section>
 </body>
+<script src="js/index.js"></script>
+
 </html>
